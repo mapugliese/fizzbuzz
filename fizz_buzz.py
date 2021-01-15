@@ -29,6 +29,4 @@ def fizz_buzz(num_range, type='list'):
                 num_list.append(str(num))
         return num_list
     elif type not in ['list', 'string']:
-        print("fizzbuzz() can return a 'string' or a 'list'.")
-
-print(fizz_buzz(100))
+        return TypeError
